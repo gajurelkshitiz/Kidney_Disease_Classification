@@ -79,3 +79,7 @@ __venv__/
 .DS_Store
 Thumbs.db
 Icon?
+
+
+
+artifacts/*
