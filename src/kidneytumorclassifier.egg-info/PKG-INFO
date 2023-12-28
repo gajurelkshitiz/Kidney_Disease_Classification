@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kidneytumorclassifier
+Version: 0.0.0
+Summary: A small python package for CNN app.
+Home-page: https://github.com/gajurelkshitiz/Kidney_Disease_Classification
+Author: gajurelkshitiz
+Author-email: kshitiz.purbct042@gmail.com
+Project-URL: Bug Tracker, https://github.com/gajurelkshitiz/Kidney_Disease_Classification/issues
+
+# Kidney_Disease_Classification
