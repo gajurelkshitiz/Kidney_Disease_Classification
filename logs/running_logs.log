@@ -200,3 +200,165 @@ x===================x]
 [2023-12-29 18:02:27,759: INFO: main: >>>>>>>> stage Model Training stage completed <<<<<<<<<
 
 x===================x]
+[2023-12-31 14:44:07,800: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 14:44:07,816: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 14:44:07,819: INFO: common: Created directory at: artifacts]
+[2023-12-31 14:44:09,524: WARNING: module_wrapper: From c:\Users\kshit\anaconda3\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-31 14:44:53,705: INFO: builder_impl: Assets written to: C:\Users\kshit\AppData\Local\Temp\tmpr7580ykz\model\data\model\assets]
+[2023-12-31 14:47:31,110: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 14:47:31,112: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 14:47:31,114: INFO: common: Created directory at: artifacts]
+[2023-12-31 14:47:57,455: INFO: common: json file saved at: scores.json]
+[2023-12-31 14:48:00,831: INFO: builder_impl: Assets written to: C:\Users\kshit\AppData\Local\Temp\tmpikuq0yyy\model\data\model\assets]
+[2023-12-31 15:10:29,967: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:10:29,979: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:10:29,981: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:10:30,975: WARNING: module_wrapper: From c:\Users\kshit\anaconda3\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-31 15:10:53,680: INFO: common: json file saved at: scores.json]
+[2023-12-31 15:10:57,971: INFO: builder_impl: Assets written to: C:\Users\kshit\AppData\Local\Temp\tmpnlk70l8a\model\data\model\assets]
+[2023-12-31 15:28:31,593: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-31 15:28:31,786: INFO: utils: NumExpr defaulting to 6 threads.]
+[2023-12-31 15:28:34,256: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2023-12-31 15:28:34,259: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:28:34,266: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:28:34,267: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:28:34,268: INFO: common: Created directory at: artifacts/data_ingestion]
+[2023-12-31 15:28:34,268: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 15:28:44,409: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 15:28:44,962: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:28:44,963: INFO: main: ************************]
+[2023-12-31 15:28:44,963: INFO: main: >>>>>>>> stage Prepare Base Model stage started <<<<<<<<]
+[2023-12-31 15:28:44,965: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:28:44,966: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:28:44,967: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:28:44,967: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2023-12-31 15:28:45,195: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-31 15:28:45,268: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-31 15:28:45,884: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-31 15:28:46,115: INFO: main: >>>>>>>> stage Prepare Base Model stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:28:46,116: INFO: main: ************************]
+[2023-12-31 15:28:46,116: INFO: main: >>>>>>>> stage Model Training stage started <<<<<<<<]
+[2023-12-31 15:28:46,118: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:28:46,120: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:28:46,120: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:28:46,121: INFO: common: Created directory at: artifacts\training]
+[2023-12-31 15:28:47,025: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-31 15:29:47,563: INFO: main: >>>>>>>> stage Model Training stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:29:47,564: INFO: main: ************************]
+[2023-12-31 15:29:47,564: INFO: main: >>>>>>>> stage Evaluation stage started <<<<<<<<]
+[2023-12-31 15:29:47,568: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:29:47,570: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:29:47,571: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:30:08,015: INFO: common: json file saved at: scores.json]
+[2023-12-31 15:30:12,148: INFO: builder_impl: Assets written to: C:\Users\kshit\AppData\Local\Temp\tmp1qft2xyp\model\data\model\assets]
+[2023-12-31 15:31:25,191: INFO: main: >>>>>>>> stage Evaluation stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:34:37,707: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-31 15:34:37,868: INFO: utils: NumExpr defaulting to 6 threads.]
+[2023-12-31 15:34:41,367: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2023-12-31 15:34:41,372: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:34:41,397: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:34:41,408: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:34:41,413: INFO: common: Created directory at: artifacts/data_ingestion]
+[2023-12-31 15:34:41,420: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 15:34:50,709: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 15:34:51,542: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:34:51,543: INFO: main: ************************]
+[2023-12-31 15:34:51,544: INFO: main: >>>>>>>> stage Prepare Base Model stage started <<<<<<<<]
+[2023-12-31 15:34:51,546: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:34:51,549: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:34:51,550: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:34:51,551: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2023-12-31 15:34:52,003: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-31 15:34:52,154: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-31 15:34:53,016: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-31 15:34:53,510: INFO: main: >>>>>>>> stage Prepare Base Model stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:34:53,512: INFO: main: ************************]
+[2023-12-31 15:34:53,512: INFO: main: >>>>>>>> stage Model Training stage started <<<<<<<<]
+[2023-12-31 15:34:53,515: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:34:53,518: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:34:53,519: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:34:53,520: INFO: common: Created directory at: artifacts\training]
+[2023-12-31 15:34:54,924: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-31 15:37:24,535: INFO: main: >>>>>>>> stage Model Training stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:37:24,536: INFO: main: ************************]
+[2023-12-31 15:37:24,536: INFO: main: >>>>>>>> stage Evaluation stage started <<<<<<<<]
+[2023-12-31 15:37:24,541: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:37:24,544: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:37:24,545: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:37:45,324: INFO: common: json file saved at: scores.json]
+[2023-12-31 15:37:49,428: INFO: builder_impl: Assets written to: C:\Users\kshit\AppData\Local\Temp\tmplizl5gp0\model\data\model\assets]
+[2023-12-31 15:39:01,825: INFO: main: >>>>>>>> stage Evaluation stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:40:04,029: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2023-12-31 15:40:04,361: INFO: utils: NumExpr defaulting to 6 threads.]
+[2023-12-31 15:40:07,524: INFO: main: >>>>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2023-12-31 15:40:07,528: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:40:07,539: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:40:07,540: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:40:07,542: INFO: common: Created directory at: artifacts/data_ingestion]
+[2023-12-31 15:40:07,543: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 15:40:17,100: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 15:40:17,874: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:40:17,875: INFO: main: ************************]
+[2023-12-31 15:40:17,875: INFO: main: >>>>>>>> stage Prepare Base Model stage started <<<<<<<<]
+[2023-12-31 15:40:17,879: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:40:17,882: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:40:17,883: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:40:17,884: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2023-12-31 15:40:18,390: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2023-12-31 15:40:18,502: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2023-12-31 15:40:19,218: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-31 15:40:19,594: INFO: main: >>>>>>>> stage Prepare Base Model stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:40:19,595: INFO: main: ************************]
+[2023-12-31 15:40:19,595: INFO: main: >>>>>>>> stage Model Training stage started <<<<<<<<]
+[2023-12-31 15:40:19,599: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:40:19,601: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:40:19,602: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:40:19,604: INFO: common: Created directory at: artifacts\training]
+[2023-12-31 15:40:21,040: WARNING: module_wrapper: From C:\Users\kshit\anaconda3\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2023-12-31 15:44:31,422: INFO: main: >>>>>>>> stage Model Training stage completed <<<<<<<<<
+
+x===================x]
+[2023-12-31 15:44:31,423: INFO: main: ************************]
+[2023-12-31 15:44:31,423: INFO: main: >>>>>>>> stage Evaluation stage started <<<<<<<<]
+[2023-12-31 15:44:31,427: INFO: common: yaml file: config\config.yaml loaded successfully.]
+[2023-12-31 15:44:31,429: INFO: common: yaml file: params.yaml loaded successfully.]
+[2023-12-31 15:44:31,430: INFO: common: Created directory at: artifacts]
+[2023-12-31 15:44:55,634: INFO: common: json file saved at: scores.json]
+[2023-12-31 15:45:00,387: INFO: builder_impl: Assets written to: C:\Users\kshit\AppData\Local\Temp\tmp_xl3jrfl\model\data\model\assets]
+[2023-12-31 15:46:16,815: INFO: main: >>>>>>>> stage Evaluation stage completed <<<<<<<<<
+
+x===================x]

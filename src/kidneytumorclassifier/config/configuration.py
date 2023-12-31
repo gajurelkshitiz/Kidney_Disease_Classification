@@ -1,6 +1,6 @@
 from kidneytumorclassifier.constants import *
 from kidneytumorclassifier.utils.common import read_yaml, create_directories
-from kidneytumorclassifier.entity.config_entity import DataIngestionConfig, TrainingConfig, PrepareBaseModelConfig
+from kidneytumorclassifier.entity.config_entity import DataIngestionConfig, TrainingConfig, PrepareBaseModelConfig, EvaluationConfig
 import os
 
 
@@ -68,3 +68,14 @@ class ConfigurationManager:
         )
 
         return training_config
+    
+    def get_evaluation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            path_of_model= "artifacts/training/model.h5",
+            training_data= "artifacts/data_ingestion/kidney-ct-scan-image",
+            all_params= self.params,
+            mlflow_uri= "https://dagshub.com/gajurelkshitiz/Kidney_Disease_Classification.mlflow",
+            params_image_size= self.params.IMAGE_SIZE,
+            params_batch_size= self.params.BATCH_SIZE
+        )
+        return eval_config
